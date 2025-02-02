@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.4.0"
-gem "jekyll-theme-minima", "~> 0.1.1"
+gem "jekyll-theme-minimal", "~> 0.2.0"
