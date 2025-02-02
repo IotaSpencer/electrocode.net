@@ -28,7 +28,7 @@ twitter_username: e-code.in
 github_username:  ElectroCode
 
 # Build settings
-theme: minimal
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
