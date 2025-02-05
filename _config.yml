@@ -25,7 +25,7 @@ description: |
   
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://electrocode.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: e-code.in
+twitter_username: ecodein
 github_username:  ElectroCode
 
 # Build settings
@@ -61,7 +61,7 @@ plugins:
 #   - vendor/ruby/
 
 name: ElectroCode
-author: Ken Spencer
+author: 
 year: 2025
 my_age: 33
 
