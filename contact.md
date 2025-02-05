@@ -2,23 +2,20 @@
 layout: page
 title: About
 breadcrumb: About
-excerpt: Iota\'s contact information and bio. -- Hi, my name is Ken Spencer, if you didn't already figure that out.. I'm {{ site.my_age }} years old and live in New York State.
+excerpt: ElectroCode\'s contact information and bio. -- IotaSpencer's 'Company' that houses his projects and endeavors.
 tags:
 - about
 ---
-# Me Stuff
+# About ElectroCode
 
-## So um
+ElectroCode is Ken Spencer's (IotaSpencer's) 'Company' that houses some of his coding projects and endeavors.
 
-Hi, my name is Ken Spencer, if you didn't already figure that out.. I'm {{ site.my_age }} years old and live in New York State. I am a high-functioning autistic.
+Ken is {{}}33 years old and lives in New York State. He is a high-functioning autistic and has ADHD.
 
-I love programming and scripting, especially being able to make my own little utility scripts, whether I *really* need them or not. 'Why?' You may ask.. Because to me, coding and programming is actually fun in most circumstances.
+He loves programming and scripting, especially being able to make his own little utility scripts, whether he *really* needs them or not. 'Why?' You may ask.. Because to him, coding and programming is actually fun in most circumstances.
 
-Unless I'm deeply down, programming is my goto for winding down after a hard day. When I program I usually listen to EDM or Dubstep to make parts of my mind occupied, and then I can code away.  I also love watching youtube videos to calm myself down after a hard day, mostly when i can't think of anything coding related to work on.
+Unless he is deeply down, programming is his goto for winding down after a hard day. When he programs he usually listen to EDM or Dubstep to make parts of his mind occupied, and then he can code away.  He also loves watching youtube videos to calm himself down after a hard day, mostly when he can't think of anything coding related to work on.
 
-* [ElectroCode](https://electrocode.net) <span class="badge badge-pill badge-dark">My IRC Network and other IRC related projects site (Website Currently Defunct)</span>
-
-* [My Resume/CV](/resume) <span class="badge badge-pill badge-dark">Looking to Hire? Here's my Skills and such.</span>
 
 ------
 

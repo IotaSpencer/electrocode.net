@@ -17,9 +17,9 @@
 IRC
 </a>
 </div> -->
-<div class="container">
+<!-- <div class="container">
 <i class="fas fa-key fa-2x"></i>
 <a href="/gnupg">
 GNUPG Key
 </a>
-</div>
+</div> -->
