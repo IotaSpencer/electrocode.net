@@ -2,7 +2,7 @@
 {% for service in site.data.contact.sites %}
 <div class="container">
     <a href="{{ service.url }}">
-        <i class="{{service.class }}"></i>
+        <i class="{{ service.class }}"></i>
         {{ service.extra }}
     </a>
 </div>
