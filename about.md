@@ -12,7 +12,7 @@ ElectroCode is Ken Spencer's (IotaSpencer's) 'Company' that houses some of his c
 </p>
 
 <p class="text-light">
-Ken is {{}}34 years old and lives in New York State. He is AuADHD.
+Ken is {{ site.age }} years old and lives in New York State. He is AuADHD.
 </p>
 <p class="text-light">
 He loves programming and scripting, especially being able to make his own little utility scripts, whether he *really* needs them or not. 'Why?' You may ask.. Because to him, coding and programming is actually fun in most circumstances.
