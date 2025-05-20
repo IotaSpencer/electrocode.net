@@ -1,0 +1,13 @@
+title: IRC-Source
+description: An IRC Search Engine
+href: /projects/irc-source
+technology:
+  - name: HTML
+    type: Language
+  - name: Git
+    type: Protocol / Software
+  - name: PHP
+    type: Language
+  - name: JavaScript
+    type: Language
+links: false

@@ -1,20 +1,20 @@
 settings:
   text: true
 sites:
-  - # Twitter
-    title: Follow @ecodein on Twitter
-    text: Twitter
-    service: twitter
-    href: https://twitter.com/@ecodein
-    style: "color:#1da1f2;"
-    fa-icon: fab fa-twitter fa-2x
-    #image: /path/to/image
-    #image-size:
-    #  height:
-    #  width:
-    hide: false
-    html: false
-    order: 0
+  # - # Twitter
+  #   title: Follow @ElectroCode on Twitter
+  #   text: Twitter
+  #   service: twitter
+  #   href: https://twitter.com/@ecodein
+  #   style: "color:#1da1f2;"
+  #   fa-icon: fab fa-twitter fa-2x
+  #   #image: /path/to/image
+  #   #image-size:
+  #   #  height:
+  #   #  width:
+  #   hide: false
+  #   html: false
+  #   order: 0
   -
     title: ElectroCode on GitHub
     text: GitHub
@@ -44,10 +44,10 @@ sites:
     html: false
     order: 0
   -
-    title: Join ElectroCode's Discord Server
+    title: Join ElectroCode on Discord
     service: discord
     text: Discord
-    href: https://discord.gg/6Kbpppt
+    href:
     data: data-toggle="tooltip" data-placement="top" data-trigger="click"
     style: "color:#4e5d94;"
     fa-icon: fab fa-discord fa-2x
@@ -67,8 +67,13 @@ sites:
     fa-icon:
     data:
     image:
-      path: /assets/images/vultr/logo_v_ondark.svg
-      class:
+      if_dark_mode:
+        path: /assets/images/vultr/logo_v_ondark.svg
+        class:
+      if_light_mode:
+        path: /assets/images/vultr/logo_v_onwhite.svg
+        class:
+      path: /assets/images/vultr/logo_v_onblue.svg
     image-size:
       height: 32px
       width: 32px
@@ -89,106 +94,25 @@ sites:
     hide: false
     html: false
     order: 1
-  # -
-  #   title: Ken on LinkedIn
-  #   text: LinkedIn
-  #   service: linkedin
-  #   href: https://www.linkedin.com/in/ken-iota-spencer
-  #   style: "color:blue;"
-  #   fa-icon: fab fa-linkedin fa-2x
-  #   #image:
-  #   #image-size:
-  #   #  height: 32px
-  #   #  width: 32px
-  #   hide: false
-  #   html: false
-  #   order: 8
-  # -
-  #   title: GNUPG Key
-  #   text: GNUPG
-  #   service: gnupg-page
-  #   href: /gnupg.asc
-  #   style: color:goldenrod;
-  #   data: download
-  #   fa-icon: fas fa-key fa-2x
-  #   #image:
-  #   #image-size:
-  #   #  height: 32px
-  #   #  width: 32px
-  #   hide: false
-  #   html:
-  #   order: 9
-  # -
-  #   title: DigitalOcean
-  #   text: DigitalOcean
-  #   service: digitalocean
-  #   href: https://m.do.co/c/145b0a3fb5be
-  #   style: color:blue;
-  #   fa-icon: fab fa-digital-ocean fa-2x
-  #   hide: false
-  #   html: false
-  #   order: 0
-  # -
-  #   title: Youtube 1
-  #   text: Iota Spencer
-  #   service: youtube
-  #   href: https://www.youtube.com/@IotaSpencer
-  #   style: color:red;
-  #   fa-icon: fab fa-youtube fa-2x
-  #   hide: false
-  #   html: false
-  #   order: 5
-  #   social:
-  # -
-  #   title: Youtube 2
-  #   text: Iota Plays
-  #   service: youtube
-  #   href: https://www.youtube.com/@IotaPlays
-  #   style: color:red;
-  #   fa-icon: fab fa-youtube fa-2x
-  #   hide: false
-  #   html: false
-  #   order: 5
-  #   social:
-  # -
-  #   title: Call or Text Iota
-  #   text: Tel
-  #   service: tel
-  #   href: tel:+18023274682
-  #   style: "color:green;"
-  #   fa-icon: fas fa-phone-square fa-2x
-  #   #image: /path/to/image
-  #   #image-size:
-  #   #  height:
-  #   #  width:
-  #   hide: false
-  #   html: false
-  #   order: 1
-  # -
-  #   title: IotaSpencer on Steam
-  #   text: Steam
-  #   service: steam
-  #   href: https://steamcommunity.com/id/IotaSpencer
-  #   style: "color:#c7d5e0;"
-  #   fa-icon: fab fa-steam fa-2x
-  #   #image: /path/to/image
-  #   #image-size:
-  #   #  height:
-  #   #  width:
-  #   hide: false
-  #   html: false
-  #   order: 1
-  # -
-  # title: IotaSpencer on StackOverflow
-  # service: stackoverflow
-  # text: <abbr title="StackOverflow">SO</abbr>
-  # href: https://stackoverflow.com/users/3095971/iotaspencer
-  # style: color:white;
-  # fa-icon: fab fa-stack-overflow fa-2x
-  # #image: /path/to/image
-  # #image-size:
-  # #  height:
-  # #  width:
-  # hide: false
-  # html: false
-  # order: 7
+  -
+    title: DigitalOcean
+    text: DigitalOcean
+    service: digitalocean
+    href: https://m.do.co/c/145b0a3fb5be
+    style: color:blue;
+    fa-icon: fab fa-digital-ocean fa-2x
+    hide: false
+    html: false
+    order: 0
+  -
+    title: Youtube 1
+    text: Iota Spencer
+    service: youtube
+    href: https://www.youtube.com/@ElectroCode
+    style: color:red;
+    fa-icon: fab fa-youtube fa-2x
+    hide: false
+    html: false
+    order: 5
+    social:
+

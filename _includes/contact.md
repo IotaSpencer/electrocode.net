@@ -2,7 +2,7 @@
 {% for service in site.data.contact.sites %}
 <div class="container">
     <a href="{{ service.url }}">
-        <i class="{{ service.class }}"></i>
+        <i class="{{service.class }}"></i>
         {{ service.extra }}
     </a>
 </div>
@@ -17,9 +17,9 @@
 IRC
 </a>
 </div> -->
-<!-- <div class="container">
+<div class="container">
 <i class="fas fa-key fa-2x"></i>
 <a href="/gnupg">
 GNUPG Key
 </a>
-</div> -->
+</div>

@@ -1,0 +1,9 @@
+name: Cinch Bot Template
+priority: 0
+name-selector: cinch-bottemplate
+desc: A template for cinch bots.<br/><br/> Now defunct
+project_page: /projects/cinch-bot_template
+portfolio_page: /portfolio/cinch-bot_template
+links:
+  - name: CBT on RubyGems.org
+    url: https://rubygems.org/gems/cinch-bot_template
