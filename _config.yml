@@ -38,7 +38,8 @@ my_age: 34
 skip_related_projects: true
 
 # host for serving locally and viewing with my phone
-url: https://electrocode.net
+url: &baseurl https://electrocode.net
+baseurl: *baseurl
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 repository: IotaSpencer/electrocode.net
 #   #####                                
