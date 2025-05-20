@@ -21,14 +21,16 @@ theme: bulma-clean-theme
 title: ElectroCode
 email: iota@electrocode.net
 description: |-
-  ElectroCode is a blog about technology, programming, and electronics. It covers a wide range of topics including software development, hardware design, and the latest trends in the tech industry. The blog features tutorials, reviews, and insights from the author's personal experiences in the field.
+  ElectroCode is a blog about technology, programming, and electronics.
+  It covers a wide range of topics including software development, hardware design, and the latest trends in the tech industry.
+  The blog features tutorials, reviews, and insights from the author's personal experiences in the field.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://electrocode.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ecodein
 github_username:  ElectroCode
 name: ElectroCode
-author: 
+author: IotaSpencer
 year: 2025
 my_age: 34
 
@@ -36,7 +38,7 @@ my_age: 34
 skip_related_projects: true
 
 # host for serving locally and viewing with my phone
-host: 0.0.0.0
+url: https://electrocode.net
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 repository: IotaSpencer/electrocode.net
 #   #####                                
