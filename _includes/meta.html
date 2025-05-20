@@ -1,5 +1,5 @@
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
-<meta property="og:site_name" content="{{ site.description }}"/>
+<meta property="og:site_name" content="{{ site.title }}"/>
 {%- if post.title -%}
 <meta property="og:title" content="{{ post.title }}"/>
 <meta property="og:type" content="article"/>
@@ -29,6 +29,7 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 {% if page.tags %}
 <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+<meta itemprop="og:keywords" content="{{ page.tags | join: ',' }}" />
 {% for tag in page.tags %}
 <meta property="article:tag" content="{{ tag }}"/>
 {% endfor %}
@@ -37,10 +38,3 @@
 <meta property="article:author" content="{{ author.name }}" />
 {% endif %}
 <meta name="twitter:site" content="@{{ site.social.twitter}}"/>
-{% if post.excerpt %}
-<meta property="og:description" content="{{ post.excerpt | strip_html }}"/>
-{% elsif page.excerpt %}
-<meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
-{% else %}
-<meta property="og:description" content="Iota's Website, a pool of tutorials, projects, and pages galore."/>
-{% endif %}
