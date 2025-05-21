@@ -1,8 +1,8 @@
-- name: About
-  link: /about/
-- name: Blog
-  link: /blog/
-- name: Contact
-  link: /contact/
-- name: GitHub
-  link: https://github.com/ElectroCode
+- name: "About"
+  link: "/about/"
+- name: "Blog"
+  link: "/blog/"
+- name: "Contact"
+  link: "/contact/"
+- name: "GitHub"
+  link: "https://github.com/ElectroCode"
