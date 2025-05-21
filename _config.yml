@@ -26,6 +26,7 @@ description: |-
   The blog features tutorials, reviews, and insights from the author's personal experiences in the field.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://electrocode.net" # the base hostname & protocol for your site
 twitter_username: ecodein
 github_username:  ElectroCode
 name: ElectroCode
